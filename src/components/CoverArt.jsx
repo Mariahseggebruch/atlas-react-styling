@@ -1,11 +1,15 @@
-import React from 'react';
-import coverArtImage from '../assets/placeholder.svg';
+import coverPhoto from "../assets/placeholder.svg";
 
-const CoverArt = () => {
+function CoverPhoto() {
   return (
-    <div className="h-40 w-40 bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${coverArtImage})` }}>
+    <div className="flex cover-art mb-6 w-full justify-center">
+      <img
+        src={CoverPhoto}
+        alt="Placeholder Cover Art Image"
+        className="rounded-md md:w-400 md:h-400"
+      />
     </div>
   );
-};
+}
 
 export default CoverArt;
