@@ -10,7 +10,7 @@ const PlayControls = ({ onPlayPause, onRewind, onFastForward, onShuffle }) => {
   };
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="controls-container w-full flex justify-between">
       <button className="text-gray-400 hover:text-gray-700">1x</button>
       <button onClick={onRewind} className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
         <BackwardIcon className="h-5 w-5 text-gray-600" />
