@@ -1,6 +1,8 @@
 import CoverArt from "./CoverArt";
 import SongTitle from "./SongTitle";
 import PlayControls from "./PlayControls";
+import VolumeControl from './VolumeControl';
+
 
 export default function CurrentlyPlaying() {
   return (
@@ -8,7 +10,7 @@ export default function CurrentlyPlaying() {
       <CoverArt />
       <SongTitle title="Painted in Blue" artist="Soul Canvas" />
       <PlayControls />
-
+      <VolumeControl />
     </div>
   );
 }
